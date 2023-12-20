@@ -1,0 +1,45 @@
+#head {
+  background-color: rgb(179, 1, 228);
+  height: 90px;
+}
+
+#logo {
+  height: 90px;
+  width: 49%;
+  position: absolute;
+}
+
+#logoPic {
+  height: 200px;
+  color: white;
+  margin-top: -50px;
+  margin-left: 60px;
+}
+
+#menu {
+  height: 90px;
+  position: relative;
+  width: 50%;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  float: right;
+  margin-right: 50px;
+}
+
+.list {
+  padding: 20px;
+  margin-top: 10px;
+  list-style: none;
+  float: right;
+  font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(236, 230, 229);
+}
+
+a:hover{
+    color: black;
+}

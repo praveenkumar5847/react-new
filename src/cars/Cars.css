@@ -1,0 +1,31 @@
+.items {
+  background-color: rgb(179, 1, 228);
+  width: 20%;
+  height: 400px;
+  float: right;
+  margin-left: 50px;
+  margin: 20px;
+}
+
+.items:hover{
+    background-color: black;
+}
+#searchBar{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#txt{
+  width: 300px;
+  height: 45px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 21px;
+  border: 3px solid rgb(179, 1, 228);
+}
+
+
+
+

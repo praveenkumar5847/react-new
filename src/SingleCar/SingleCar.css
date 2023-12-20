@@ -1,0 +1,112 @@
+#back{
+    position: absolute;
+    top: 0px;
+    height: 620px;
+    width: 99%;
+   top:90px;
+    filter: blur(5px);
+    margin-top:25px ;    
+}
+
+#mainPic{
+    position: relative;
+    height: 300px;
+    width:500px;
+    border: 2px solid white;
+    top:160px;
+    left: 80px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.2s;
+}
+
+#mainPic:hover{
+    box-shadow: 5px 5px 5px  white;
+    transition: all ease-in-out 0.2s;
+}
+
+#enlarge{
+    position: relative;
+    height: 600px;
+    width: 850px;
+    top:20px;
+    left: 300px;
+    border-radius: 20px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.2s;
+}
+
+#enlarge:hover{
+    box-shadow: 5px 5px 5px  white;
+}
+
+#title{
+    position: fixed;
+    border: 2px solid white;
+    top: 300px;
+    left: 700px;
+    width: 400px;
+    background-color: rgb(179, 1, 228);
+    padding: 10px;
+
+}
+#mfg{
+    position: fixed;
+    border: 2px solid white;
+    background-color: rgb(179, 1, 228);
+    padding: 10px;
+    width: 400px;
+    /* z-index: 5; */
+    top: 355px;
+    left: 700px;
+    /* left: 600px; */
+}
+
+#varient {
+    position: fixed;
+    border: 2px solid white;
+    /* z-index: 5; */
+    top: 400px;
+    left: 700px;
+    width: 400px;
+    background-color: rgb(179, 1, 228);
+    padding: 10px;
+    /* left: 600px; */
+}
+
+#back1{
+    position: fixed;
+    left: 1300px;
+    top: 650px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(179, 1, 228);
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+#back1:hover{
+    background-color: white;
+    color: rgb(179, 1, 228);
+    border: 3px solid rgb(179, 1, 228);
+}
+
+#viewMore{
+    position: fixed;
+    left: 1100px;
+    top: 650px;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgb(179, 1, 228);
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+}
+
+#viewMore:hover{
+    background-color: white;
+    color: rgb(179, 1, 228);
+    border: 3px solid rgb(179, 1, 228);
+}
